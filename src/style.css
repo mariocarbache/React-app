@@ -1,0 +1,14 @@
+.nav-bar {
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    height: 40px;
+    background-color: darkblue;
+}
+
+.link {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 15px;
+    font-family: 'Tilt Prism', cursive;
+}
