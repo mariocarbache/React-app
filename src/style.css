@@ -12,3 +12,29 @@
     margin: 15px;
     font-family: 'Tilt Prism', cursive;
 }
+
+.div-center {
+    text-align: center;
+    height: 420px;
+    width: 400px;
+    background-color: lightskyblue;
+    margin: auto;
+    border-radius: 20%;
+    margin-top: 5%;
+}
+
+.ul {
+    list-style: none;
+    text-align: center;
+}
+
+.img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.text {
+    margin-left: 30%;
+    margin-right: 30%;
+}
