@@ -15,7 +15,7 @@
 
 .div-center {
     text-align: center;
-    height: 420px;
+    height: 400px;
     width: 400px;
     background-color: lightskyblue;
     margin: auto;
@@ -37,4 +37,43 @@
 .text {
     margin-left: 30%;
     margin-right: 30%;
+}
+
+h2 {
+    font-family: 'Caprasimo', cursive;
+}
+
+p {
+    font-family: 'Caprasimo', cursive;
+}
+
+.logo {
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.input {
+    font-family: 'Caprasimo', cursive;
+    background-color: lightcyan;
+    border-radius: 12px;
+    border: none;
+    margin: 5px;
+}
+
+.button {
+    font-family: 'Caprasimo', cursive;
+    background-color: lightcyan;
+    border-radius: 12px;
+}
+
+.div-center-search {
+    text-align: center;
+    height: 490px;
+    width: 400px;
+    background-color: lightskyblue;
+    margin: auto;
+    border-radius: 20%;
+    margin-top: 5%;
 }

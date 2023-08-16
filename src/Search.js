@@ -23,24 +23,24 @@ function Search(){
     }
 
     return(
-        <div className="div-center">
+        <div className="div-center-search">
             <h2>Search by city:</h2>
 
             <div>
-                <input type="text" placeholder="Enter city" onChange={(e) => setSearch(e.target.value)}/>
-                <button onClick={searchPressed}>Search</button>
+                <input className="input" type="text" placeholder="Enter city" onChange={(e) => setSearch(e.target.value)}/>
+                <button className="button" onClick={searchPressed}>Search</button>
             </div>
             {typeof weather.main != "undefined" ? (
             <div className="div">
                 <h2>{weather.name}</h2>
                 <p>{weather.weather[0].main}</p>
                 <p>'{weather.weather[0].description}'</p>
-                <p>Current Temperature: {weather.main.temp}°F</p>
-                <p>Feels like: {weather.main.feels_like}°F</p>
-                <p>Highest Today: {weather.main.temp_max}°F</p>
-                <p>Lowest Today: {weather.main.temp_min}°F</p>
-                <p>Humidity: {weather.main.humidity}%</p>
-                <p>Wind Speed: {weather.wind.speed}mph</p>
+                <p><img className="logo" src={require("./temp.jpeg")} alt="temp" /> Current Temperature: {weather.main.temp}°F</p>
+                <p><img className="logo" src={require("./feels_like.png")} alt="feelsliketemp" /> Feels like: {weather.main.feels_like}°F</p>
+                <p><img className="logo" src={require("./Max_temp.jpeg")} alt="Maxtemp" /> Highest Today: {weather.main.temp_max}°F</p>
+                <p><img className="logo" src={require("./Min_temp.jpeg")} alt="Mintemp" /> Lowest Today: {weather.main.temp_min}°F</p>
+                <p><img className="logo" src={require("./humidity.jpeg")} alt="humidity" /> Humidity: {weather.main.humidity}%</p>
+                <p><img className="logo" src={require("./wind_speed.jpeg")} alt="wind_speed" /> Wind Speed: {weather.wind.speed}mph</p>
             </div>
             ):(
                 ""

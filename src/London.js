@@ -33,12 +33,12 @@ function WeatherLondon(){
                 <div className="div">
                 <p>{LondonWeather.weather[0].main}</p>
                 <p>'{LondonWeather.weather[0].description}'</p>
-                <p>Current Temperature: {LondonWeather.main.temp}°F</p>
-                <p>Feels like: {LondonWeather.main.feels_like}°F</p>
-                <p>Highest Today: {LondonWeather.main.temp_max}°F</p>
-                <p>Lowest Today: {LondonWeather.main.temp_min}°F</p>
-                <p>Humidity: {LondonWeather.main.humidity}%</p>
-                <p>Wind Speed: {LondonWeather.wind.speed}mph</p>
+                <p><img className="logo" src={require("./temp.jpeg")} alt="temp" /> Current Temperature: {LondonWeather.main.temp}°F</p>
+                <p><img className="logo" src={require("./feels_like.png")} alt="feelsliketemp" /> Feels like: {LondonWeather.main.feels_like}°F</p>
+                <p><img className="logo" src={require("./Max_temp.jpeg")} alt="Maxtemp" /> Highest Today: {LondonWeather.main.temp_max}°F</p>
+                <p><img className="logo" src={require("./Min_temp.jpeg")} alt="Mintemp" /> Lowest Today: {LondonWeather.main.temp_min}°F</p>
+                <p><img className="logo" src={require("./humidity.jpeg")} alt="humidity" /> Humidity: {LondonWeather.main.humidity}%</p>
+                <p><img className="logo" src={require("./wind_speed.jpeg")} alt="wind_speed" /> Wind Speed: {LondonWeather.wind.speed}mph</p>
             </div>
             ):(
                 ""

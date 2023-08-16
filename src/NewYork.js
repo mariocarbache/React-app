@@ -33,12 +33,12 @@ function WeatherNY(){
                 <div className="div">
                 <p>{NYweather.weather[0].main}</p>
                 <p>'{NYweather.weather[0].description}'</p>
-                <p>Current Temperature: {NYweather.main.temp}°F</p>
-                <p>Feels like: {NYweather.main.feels_like}°F</p>
-                <p>Highest Today: {NYweather.main.temp_max}°F</p>
-                <p>Lowest Today: {NYweather.main.temp_min}°F</p>
-                <p>Humidity: {NYweather.main.humidity}%</p>
-                <p>Wind Speed: {NYweather.wind.speed}mph</p>
+                <p><img className="logo" src={require("./temp.jpeg")} alt="temp" /> Current Temperature: {NYweather.main.temp}°F</p>
+                <p><img className="logo" src={require("./feels_like.png")} alt="feelsliketemp" /> Feels like: {NYweather.main.feels_like}°F</p>
+                <p><img className="logo" src={require("./Max_temp.jpeg")} alt="Maxtemp" /> Highest Today: {NYweather.main.temp_max}°F</p>
+                <p><img className="logo" src={require("./Min_temp.jpeg")} alt="Mintemp" /> Lowest Today: {NYweather.main.temp_min}°F</p>
+                <p><img className="logo" src={require("./humidity.jpeg")} alt="humidity" /> Humidity: {NYweather.main.humidity}%</p>
+                <p><img className="logo" src={require("./wind_speed.jpeg")} alt="wind_speed" /> Wind Speed: {NYweather.wind.speed}mph</p>
             </div>
             ):(
                 ""
