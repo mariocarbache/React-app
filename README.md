@@ -4,7 +4,7 @@ React application that allows user to explore weather conditions, temperatures, 
 
 ## Technologies
 
-**React [https://react.dev/](https://react.dev/)
-**Axios [https://axios-http.com/](https://axios-http.com/)
-**OpenWeather API [https://openweathermap.org/](https://openweathermap.org/)
+- React [https://react.dev/](https://react.dev/)
+- Axios [https://axios-http.com/](https://axios-http.com/)
+- OpenWeather API [https://openweathermap.org/](https://openweathermap.org/)
 
